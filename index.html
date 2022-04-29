@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Olivia Jarman</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <div class="nav">
+      <div class="container">
+        <ul>
+          <li>About</li>
+          <li>Family</li>
+          <li>Work</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <div class="column">
+      <h1 id="toptitle">Olivia Jarman</h1>
+        <h3>By Olivia Jarman | Delray Beach, FL</h3>
+        <h4>Just a human figuring out life one day at a time</h4>
+        <div id="slideshow" align="center" >
+  
+
+
+         
+          <img class="mySlides" src="https://s10.gifyu.com/images/IMG_24751ea0701a4f87900d.jpg" height="300" width="225">
+          <img class="mySlides" src="https://s10.gifyu.com/images/IMG_5584.jpg"  height="300" width="225">
+          <img class="mySlides" src="https://s10.gifyu.com/images/IMG_9044b6155f8d63cebea6.jpg"  height="300" width="225">
+          <img class="mySlides" src="https://s10.gifyu.com/images/IMG_96903fb0def4e40356f5.jpg"  height="300" width="225">
+          <img class="mySlides" src="https://s10.gifyu.com/images/IMG_9708a4bbdcec2f690959.jpg"  height="300" width="225">
+          <button class="" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+  
+
+    
+    
+
+
+        <article>
+        <p> "The difference between finding and developing your passion is nuanced but crucial, the team argues. 
+          Telling someone to “find passion” enforces the idea that each of us has a great passion within us and our life 
+          purpose is to realize what that is and be happy. That’s a dangerous mindset because it can limit the passions 
+          that a person ultimately pursues — and may prime them to give up if their passion is proving difficult to commodify 
+          into a job."</p>
+          
+          <blockquote><p>“Urging people to find their passion may lead them to put all their eggs in one basket,” the researchers write, 
+          “but then drop that basket when it becomes difficult to carry.”</p></blockquote><br><br>
+
+          <p>"The psychologists say they proved the limiting nature of the “find your passion” mindset through a series of five 
+          studies involving 470 participants. Each of these studies tested the choices made by two types of people: those who 
+          think their personal interests are fixed (they called this “fixed theory”) or those who believe intelligence and talent 
+          can be developed (“growth theory”)."</p>
+          <p><a href="https://getpocket.com/explore/item/finding-your-passion-is-an-ineffective-way-to-live-your-life-say-scientists?utm_source=pocket-newtab" target="_blank"> Click here for the full PocketWorthy Article!</em></i></a></p>
+          <center><iframe width="100" height="100" src="https://www.youtube.com/embed/66TQBtlRKc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align-content="center"></iframe></center>
+          </article>
+  </div>
+
+
+
+
+
+
+<br>
+<div class="contactform">
+  <div class="contact-parent">
+     <div class="contact-child child2">
+        <div class="inside-contact">
+           <h2>Contact</h2>
+           <h3>
+              <span id="confirm">
+           </h3>
+           <p>Name *</p>
+           <input id="txt_name" type="text" Required="required">
+           <p>Email *</p>
+           <input id="txt_email" type="text" Required="required">
+           <p>Phone *</p>
+           <input id="txt_phone" type="text" Required="required">
+           <p>Inquiries *</p>
+           <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
+           <input type="submit" id="btn_send" value="SEND">
+        </div>
+     </div>
+  </div>
+</div>
+<br>
+
+
+
+
+
+<div class="businesscard" align="center">
+    <h1 id="name">Olivia Jarman</h1>
+    <h2 id='job'>Aspiring Software Developer, Fullstack</h2>
+    <span id="phone">Say 👋🏻 @ 561-674-2116</span><br>
+    <span id="address">📫300 Ashland Place, 25L</br>
+      Brooklyn, NY 11217</span>
+    <p id="email">Best reached by e-mail at <a href ="mailto:ocjarman@gmail.com">📧ocjarman@gmail.com</a></p></div>
+</div>
+</div>
+
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+
+  </body>
+  
+  
+  
